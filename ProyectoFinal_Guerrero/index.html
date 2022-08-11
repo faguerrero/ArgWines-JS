@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARG WINES | La pasión por el vino Argentino</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+    <!--Fuente de los textos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    <!--Iconos laterales-->
+    <link rel="stylesheet" href="/css/font.css">
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/vino.ico">
+    
+</head>
+<body>
+    <header class="header">
+        <h1>ARG WINES</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito"> 0</span></button>
+    </header>
+
+    <input id="search" type="text" class="input" placeholder="Buscá tu producto acá">
+    <div class="seleccion">
+        <select id="selecTipo">
+            <option value="all">Todos</option>
+            <option value="Malbec">Malbec</option>
+            <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+            <option value="Chardonnay">Chardonnay</option>
+            <option value="Extra Brut">Extra Brut</option>
+            <option value="Blend">Blend</option>
+            <option value="Pinot Noir">Pinot Noir</option>
+        </select>
+    </div>
+
+    <main id="contenedor-productos">
+    </main>
+
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>CARRITO DE COMPRAS</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <div id="terminar" style="display: flex; justify-content: space-around;">
+                <a href="http://www.mercadopago.com" class="finalizar" id="finalizar" target="_blank">Finalizar compra</a>
+                <button id="carritoCerrar2">Seguir comprando</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="social-bar">
+        <a href="https://www.linkedin.com" class="icon icon-linkedin" target="_blank"></a>
+        <a href="https://www.facebook.com" class="icon icon-facebook2" target="_blank"></a>
+        <a href="https://www.whatsapp.com" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+    </div>
+
+
+    <footer class="footer">
+        <div class="columna1">
+            <li class="titulosListado">BODEGAS</li>
+            <ul class="listado">Rutini Wines</ul>
+            <ul class="listado">Finca la linda</ul>
+            <ul class="listado">Luigi Bosca</ul>
+            <ul class="listado">Mosquita muerta</ul>
+            <ul class="listado">Escorihuela Gascón</ul>
+            <ul class="listado">Zuccardi</ul>
+        </div>
+        <div class="columna2">
+            <li class="titulosListado">VARIETALES</li>
+            <ul class="listado">Malbec</ul>
+            <ul class="listado">Cabernet Sauvignon</ul>
+            <ul class="listado">Chardonnay</ul>
+            <ul class="listado">Extra Brut</ul>
+            <ul class="listado">Blend</ul>
+            <ul class="listado">Pinot Noir</ul>
+        </div>
+        <div class="columna3">
+            <li class="titulosListado">NOSOTROS</li>
+            <ul class="listado">Sumate a nuestro equipo</ul>
+            <ul class="listado">Nuestra historia</ul>
+            <ul class="listado">Terminos y condiciones</ul>
+            <ul class="listado">Experiencias</ul>
+            <ul class="listado">Botón de arrepentimiento</ul>
+        </div>
+    </footer>
+
+    <script src="js/getData.js" type="module"></script>
+    <script src="js/modal.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+    <script src="js/index.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
+

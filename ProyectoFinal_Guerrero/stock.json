@@ -1,0 +1,22 @@
+[
+    {"id": 1, "nombre": "Finca la linda", "descripcion":"Malbec", "precio": 1120, "img": "/assets/id1-fincalalinda.jpg", "cantidad": 0},
+    {"id": 2, "nombre": "Luigi Bosca", "descripcion": "Malbec", "precio": 1970, "img": "/assets/id2-luigiboscareservamalbec.jpg", "cantidad": 0},
+    {"id": 3, "nombre": "Trumpeter", "descripcion": "Malbec", "precio": 1318, "img": "/assets/id3-trumpeter.jpg", "cantidad": 0},
+    {"id": 4, "nombre": "Escorihuela Gascon", "descripcion": "Cabernet Sauvignon", "precio": 1500, "img": "/assets/id4-escorihuelagascon.jpg", "cantidad": 0},
+    {"id": 5, "nombre": "Luigi Bosca", "descripcion": "Cabernet Sauvignon", "precio": 2250, "img": "/assets/id5-luigiboscacabernetsauvignon.jpg", "cantidad": 0},
+    {"id": 6, "nombre": "Finca la linda", "descripcion": "Cabernet Sauvignon", "precio": 1120, "img": "assets/id6-fincalalindacabernetsauvignon.jpg", "cantidad": 0},
+    {"id": 7, "nombre": "Luigi Bosca", "descripcion": "Chardonnay", "precio": 1770, "img": "/assets/id7-luigiboscachardonnay.jpg", "cantidad": 0},
+    {"id": 8, "nombre": "Trumpeter", "descripcion": "Chardonnay", "precio": 1318, "img": "/assets/id8-trumpeterchardonnay.jpg", "cantidad": 0},
+    {"id": 9, "nombre": "Finca la linda", "descripcion": "Chardonnay", "precio": 1300, "img": "/assets/id9-fincalalindachardonnay.jpg", "cantidad": 0},
+    {"id": 10, "nombre": "Luigi Bosca", "descripcion": "Extra Brut", "precio": 2830, "img": "/assets/id10-luigiboscabrutnature.jpg", "cantidad": 0},
+    {"id": 11, "nombre": "Finca la linda", "descripcion": "Extra Brut", "precio": 1220, "img": "/assets/id11-fincalalindaextrabrut.jpg", "cantidad": 0},
+    {"id": 12, "nombre": "Baron B", "descripcion": "Extra Brut", "precio": 5528, "img": "/assets/id12-baronbbrutnature.jpg", "cantidad": 0},
+    {"id": 13, "nombre": "Alma negra", "descripcion": "Blend", "precio": 3980, "img": "/assets/id13-almanegrablend.jpg", "cantidad": 0},
+    {"id": 14, "nombre": "Tito Zuccardi", "descripcion": "Blend", "precio": 3600, "img": "/assets/id14-titozuccardiblend.jpg", "cantidad": 0},
+    {"id": 15, "nombre": "Mosquita muerta", "descripcion": "Blend", "precio": 2350, "img": "/assets/id15-mosquitamuertablend.jpg", "cantidad": 0},
+    {"id": 16, "nombre": "Luigi Bosca", "descripcion": "Pinot Noir", "precio": 1945, "img": "/assets/id16-luigiboscapinotnoir.jpg", "cantidad": 0},
+    {"id": 17, "nombre": "Escorihuela Gascon", "descripcion": "Pinot Noir", "precio": 1200, "img": "/assets/id17-escorihuelagasconpinotnoir.jpg", "cantidad": 0},
+    {"id": 18, "nombre": "Rutini", "descripcion": "Pinot Noir", "precio": 3500, "img": "/assets/id18-rutinipinotnoir.jpg", "cantidad": 0},
+    {"id": 19, "nombre": "Salentein", "descripcion": "Malbec", "precio": 1620, "img": "/assets/id19-salenteinmalbec.jpg", "cantidad": 0},
+    {"id": 20, "nombre": "Zuccardi Q", "descripcion": "Malbec", "precio": 2250, "img": "/assets/id20-zuccardiqmalbec.jpg", "cantidad": 0}
+]
